@@ -68,6 +68,7 @@ public class SysLogAspect {
 		if(syslog != null){
 			//注解上的描述
 			sysLog.setOperation(syslog.value());
+			//sysLog.setOperation(syslog.value());
 		}
 
 		//请求的方法名
